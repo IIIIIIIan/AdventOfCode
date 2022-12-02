@@ -4,5 +4,13 @@ import Foundation
 
 let calorieCalculator = try CalorieCalculator()
 
-let answer1 = calorieCalculator?.totalTopMostCalories
-let answer2 = calorieCalculator?.totalTop3Calories
+let answer1_day1 = calorieCalculator?.totalTopMostCalories
+let answer2_day1 = calorieCalculator?.totalTop3Calories
+
+// MARK: - Day 2
+
+let tournament = try Tournament()
+let answer1_day2 = tournament?.play()
+
+let tournament2 = try Tournament(strategy: .balance)
+let answer2_day2 = tournament2?.play()
