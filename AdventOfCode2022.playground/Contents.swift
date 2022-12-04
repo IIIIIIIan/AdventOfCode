@@ -20,3 +20,9 @@ let answer2_day2 = tournament2?.play()
 let priorityCalculator = try PriorityCalculator()
 let answer1_day3 = priorityCalculator?.totalPriorities
 let answer2_day3 = priorityCalculator?.totalPrioritiesOfGroups
+
+// MARK: - Day 4
+
+let assignmentManager = try AssignmentManager()
+let answer1_day4 = assignmentManager?.numberOfPairsFullyContainTheOther
+let answer2_day4 = assignmentManager?.numberOfPairsThatOverlaps
