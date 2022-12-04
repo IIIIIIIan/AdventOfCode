@@ -14,3 +14,9 @@ let answer1_day2 = tournament?.play()
 
 let tournament2 = try Tournament(strategy: .balance)
 let answer2_day2 = tournament2?.play()
+
+// MARK: - Day 3
+
+let priorityCalculator = try PriorityCalculator()
+let answer1_day3 = priorityCalculator?.totalPriorities
+let answer2_day3 = priorityCalculator?.totalPrioritiesOfGroups
