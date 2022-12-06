@@ -38,3 +38,9 @@ let answer1_day5 = cargoCrane9000.cratesOnTop
 var cargoCrane9001 = CargoCrane9001(crates: crates)
 cargoCrane9001.execute(procedures: procedures)
 let answer2_day5 = cargoCrane9001.cratesOnTop
+
+// MARK: - Day 5
+
+let detector = try PacketMarkerDetector()
+let answer1_day6 = detector?.startOfPacketMarker
+let answer2_day6 = detector?.startOfMessageMarker
