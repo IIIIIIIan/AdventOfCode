@@ -27,7 +27,7 @@ let assignmentManager = try AssignmentManager()
 let answer1_day4 = assignmentManager?.numberOfPairsFullyContainTheOther
 let answer2_day4 = assignmentManager?.numberOfPairsThatOverlaps
 
-// MARK: - Day 4
+// MARK: - Day 5
 
 let procedures = try Procedure.allProcedures
 
@@ -39,8 +39,14 @@ var cargoCrane9001 = CargoCrane9001(crates: crates)
 cargoCrane9001.execute(procedures: procedures)
 let answer2_day5 = cargoCrane9001.cratesOnTop
 
-// MARK: - Day 5
+// MARK: - Day 6
 
 let detector = try PacketMarkerDetector()
 let answer1_day6 = detector?.startOfPacketMarker
 let answer2_day6 = detector?.startOfMessageMarker
+
+// MARK: - Day 7
+
+let fileSystem = try FileSystem()
+let answer1_day7 = fileSystem?.totalSizeOfDirectoryAtMost100000
+let answer2_day7 = fileSystem?.smalleseSizeOfDirectoryToDelete
