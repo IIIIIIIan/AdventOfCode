@@ -50,3 +50,9 @@ let answer2_day6 = detector?.startOfMessageMarker
 let fileSystem = try FileSystem()
 let answer1_day7 = fileSystem?.totalSizeOfDirectoryAtMost100000
 let answer2_day7 = fileSystem?.smalleseSizeOfDirectoryToDelete
+
+// MARK: - Day 8
+
+let quadcopter = try Quadcopter()
+let answer1_day8 = quadcopter?.numberOfVisibleTrees
+let answer2_day8 = quadcopter?.highestPossibleScenicScore
