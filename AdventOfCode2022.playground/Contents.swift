@@ -66,3 +66,9 @@ let answer1_day9 = rope?.tailVisitedPositions.count
 var combinedRope = try CombinedRope()
 combinedRope?.makeMotions()
 let answer2_day9 = combinedRope?.tailVisitedPositions.count
+
+// MARK: - Day 10
+
+let device = try Device()
+let answer1_day10 = device?.sumOfSixSignalStrength
+let answer2_day10 = device?.ctrImage

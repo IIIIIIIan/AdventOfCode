@@ -3,7 +3,11 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/ian.jiang/Repos/AdventOfCode/AdventOfCode2022.playground#CharacterRangeLen=66&amp;CharacterRangeLoc=840&amp;EndingColumnNumber=14&amp;EndingLineNumber=34&amp;StartingColumnNumber=0&amp;StartingLineNumber=33&amp;Timestamp=692175284.826934"
+         documentLocation = "file:///Users/ian.jiang/Repos/AdventOfCode/AdventOfCode2022.playground#CharacterRangeLen=66&amp;CharacterRangeLoc=840&amp;EndingColumnNumber=14&amp;EndingLineNumber=34&amp;StartingColumnNumber=0&amp;StartingLineNumber=33&amp;Timestamp=692419894.912594"
+         selectedRepresentationIndex = "0">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/ian.jiang/Repos/AdventOfCode/AdventOfCode2022.playground#CharacterRangeLen=13&amp;CharacterRangeLoc=1976&amp;EndingColumnNumber=18&amp;EndingLineNumber=73&amp;StartingColumnNumber=5&amp;StartingLineNumber=73&amp;Timestamp=692419894.912653"
          selectedRepresentationIndex = "0">
       </LoggerValueHistoryTimelineItem>
    </TimelineItems>
