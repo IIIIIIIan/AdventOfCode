@@ -72,3 +72,13 @@ let answer2_day9 = combinedRope?.tailVisitedPositions.count
 let device = try Device()
 let answer1_day10 = device?.sumOfSixSignalStrength
 let answer2_day10 = device?.ctrImage
+
+// MARK: - Day 11
+
+let game = Game()
+game.start(numberOfRounds: 20)
+let answer1_day11 = game.monkeyBusiness
+
+let game2 = Game2()
+game2.start(numberOfRounds: 10000)
+let answer2_day11 = game2.monkeyBusiness
