@@ -56,3 +56,13 @@ let answer2_day7 = fileSystem?.smalleseSizeOfDirectoryToDelete
 let quadcopter = try Quadcopter()
 let answer1_day8 = quadcopter?.numberOfVisibleTrees
 let answer2_day8 = quadcopter?.highestPossibleScenicScore
+
+// MARK: - Day 9
+
+var rope = try Rope()
+rope?.makeMotions()
+let answer1_day9 = rope?.tailVisitedPositions.count
+
+var combinedRope = try CombinedRope()
+combinedRope?.makeMotions()
+let answer2_day9 = combinedRope?.tailVisitedPositions.count
